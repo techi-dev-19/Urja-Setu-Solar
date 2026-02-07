@@ -177,7 +177,7 @@ const Index = () => {
                 asChild
                 variant="outline"
                 size="lg"
-                className="text-lg border-white/30 text-white hover:bg-white/10"
+                className="text-lg border-white/30 text-white bg-white/10"
               >
                 <Link to="/contact">Get Free Quote</Link>
               </Button>
@@ -439,3 +439,4 @@ const Index = () => {
 };
 
 export default Index;
+
