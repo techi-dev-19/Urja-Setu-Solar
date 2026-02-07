@@ -101,11 +101,11 @@ const Header = () => {
             ))}
             <div className="pt-4 space-y-3 border-t border-border mt-4">
               <a
-                href="tel:+1234567890"
+                href="tel:+91-9369873546"
                 className="flex items-center px-4 text-sm text-muted-foreground"
               >
                 <Phone className="mr-2 h-4 w-4" />
-                +1 (234) 567-890
+                +91-9369873546
               </a>
               <Button asChild className="w-full gradient-solar border-0">
                 <Link to="/contact" onClick={() => setIsMenuOpen(false)}>
@@ -121,3 +121,4 @@ const Header = () => {
 };
 
 export default Header;
+
